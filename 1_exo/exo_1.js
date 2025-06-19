@@ -9,6 +9,8 @@ var prenom = "Azzedine";
 var age = 20;
 var nombre = [10, 30, 5, 12];
 var personne = ["toto", 12];
+personne.push(45);
+personne.push("toto");
 function somme() {
     return nombre.reduce(function (ac, n) { return ac + n; }, 0);
 }
