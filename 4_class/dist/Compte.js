@@ -13,7 +13,7 @@ class Compte {
         this.titulaire = titulaire;
     }
     presentation() {
-        console.log(`titulaire: ${this.titulaire}, solde: ${this.solde}`);
+        return `titulaire: ${this.titulaire}, solde: ${this.solde}`;
     }
     getSolde() { return this.solde; }
     getTitulaire() { return this.titulaire; }

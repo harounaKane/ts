@@ -4,12 +4,10 @@ class Compte{
     // private solde: number;
     // private titulaire: string;
 
-    constructor(private numero: number, private solde: number, private titulaire: string){}
+    constructor(private numero: number, protected solde: number, private titulaire: string){}
 
-    presentation(): void {
-        console.log(
-            `titulaire: ${this.titulaire}, solde: ${this.solde}`
-        );        
+    presentation(): string {
+        return `titulaire: ${this.titulaire}, solde: ${this.solde}`;        
     }
 
     getSolde(): number{ return this.solde;}
