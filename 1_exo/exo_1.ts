@@ -8,11 +8,8 @@
 
 let prenom: string = "Azzedine";
 let age:number = 20;
-let nombre: Array<number> = [10, 30, 5, 12];
+let nombre: Array<number> = [10, 30, 5, 12]; // number[]
 let personne:[string, number] = ["toto", 12];
-
-personne.push(45);
-personne.push("toto");
 
 function somme():number{
     return nombre.reduce( (ac, n) => ac+n, 0 );
