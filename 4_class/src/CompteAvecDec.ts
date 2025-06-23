@@ -1,4 +1,5 @@
 import Compte from "./Compte";
+import Produit from "./Produit";
 
 class CompteAvecDec extends Compte{
 

@@ -20,6 +20,7 @@ afficherInfo("Toto");
 afficherInfo("Tata", 30);
 
 
+
 const division = (a: number, b: number): number => {
     if (b == 0){
         throw new Error("pas de division par zéro");

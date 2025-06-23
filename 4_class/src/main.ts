@@ -7,7 +7,6 @@ import CompteAvecDec from "./CompteAvecDec";
 
     console.log( c2 instanceof Compte );
     
-
     c2.retirer(2001);
     console.log( c1.presentation() );
     console.log( c2.presentation() );
